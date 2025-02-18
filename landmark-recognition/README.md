@@ -1,5 +1,9 @@
 # Devotional Landmark Recognition
 
+## Demo Video
+
+![alt text](assets/landmark_recognizer.gif)
+
 ## Project Overview
 
 This project aims to develop a deep learning model for Devotional landmark recognition. It involves preprocessing a dataset, performing data augmentation and normalization, and training a model for classification.
