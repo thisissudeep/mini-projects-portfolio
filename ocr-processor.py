@@ -12,10 +12,10 @@ GENAI_API_KEY = "YOUR_GEMINI_API_KEY"
 genai.configure(api_key=GENAI_API_KEY)
 
 # Configure Tesseract Path
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "YOUR_Tesseract-OCR_PATH"
 
 # Initialize Firebase
-FIREBASE_CREDENTIALS_PATH = "D:/vat-demo-f206b-firebase-adminsdk-fbsvc-e8d3543a25.json"
+FIREBASE_CREDENTIALS_PATH = "FIREBASE_JSON_FILE_PATH"
 cred = credentials.Certificate(FIREBASE_CREDENTIALS_PATH)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
@@ -44,7 +44,7 @@ def process_image_ocr(image_path):
     {', '.join(qr_data) if qr_data else 'None'}
     """
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(
         [f"Beautify the following text:\n{input_text}", img], stream=True
     )
