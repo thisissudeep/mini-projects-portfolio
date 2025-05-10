@@ -12,10 +12,10 @@ GENAI_API_KEY = "YOUR_GEMINI_API_KEY"
 genai.configure(api_key=GENAI_API_KEY)
 
 # Configure Tesseract Path
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "YOUR_Tesseract-OCR_PATH"
 
 # Initialize Firebase
-FIREBASE_CREDENTIALS_PATH = "D:/vat-demo-f206b-firebase-adminsdk-fbsvc-e8d3543a25.json"
+FIREBASE_CREDENTIALS_PATH = "FIREBASE_JSON_FILE_PATH"
 cred = credentials.Certificate(FIREBASE_CREDENTIALS_PATH)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
