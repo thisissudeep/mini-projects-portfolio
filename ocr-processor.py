@@ -44,7 +44,7 @@ def process_image_ocr(image_path):
     {', '.join(qr_data) if qr_data else 'None'}
     """
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(
         [f"Beautify the following text:\n{input_text}", img], stream=True
     )
