@@ -1,0 +1,7 @@
+Hi {{name}},
+
+This is a personalized test email sent automatically using Python.
+Hope you're having a great day!
+
+Best regards,
+Your Automation Bot
