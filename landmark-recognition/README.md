@@ -8,6 +8,8 @@
 
 This project aims to develop a deep learning model for Devotional landmark recognition. It involves preprocessing a dataset, performing data augmentation and normalization, and training a model for classification.
 
+<strong>LinkedIn Project Post:</strong> [Click here](https://www.linkedin.com/posts/thisissudeep_ai-deeplearning-computervision-activity-7297530471209385984-YfPh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADm-mlkBp4kj3nB6gz-7AcPS-fB3E_OhQ24)
+
 ## Folder Structure
 
 ```

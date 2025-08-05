@@ -1,60 +1,57 @@
-# **Mini Projects Portfolio**
+# Mini Projects Portfolio
 
-Welcome to my Mini Projects Portfolio! This repository contains a collection of small but impactful projects I completed during my learning phase. Each project demonstrates my growth and understanding of various concepts in programming and technology.
+Hi!! I'm Sudeep. This repository contains a curated collection of mini-projects showcasing my practical explorations in **AI**, **Computer Vision**, **Automation**, and **Speech Processing**. Each project reflects hands-on learning and implementation of real-world problems.
 
-## **Purpose**
+## Projects
 
-This repository serves as:
+### [Crypto Safety Bot](./crypto-safety-bot)
 
-- A resource for others to explore and learn from.
-- A reference for future projects and applications.
+- A Telegram bot that detects fraudulent crypto transactions using AI and lets users cancel them from within the chat.
+- Built using `Python`, `Telegram Bot API`, and `AI models`.
 
-## **Projects**
+### [Face Recognition System](./face-recognition)
 
-1. #### **[Object Detector](./object-detector.py)**
+- Real-time face detection and recognition using OpenCV.
+- Recognizes known faces and flags unknown individuals using Haar Cascade + LBPH.
 
-- A tool for detecting and classifying objects in live video streams using OpenCV.
+### [Gmail Automation](./gmail-automation)
 
-2. #### **[Object Dimensions Analyzer](./object-dimension-analyzer.py)**
+- Automates Gmail operation like sending emails using the Gmail API.
+- Ideal for productivity automation tasks.
 
-- A utility to measure and analyze the height and width of objects in real-time video.
+### [Hand Raise Counter](./hand-raise-counter)
 
-3. #### **[Human-Object Interaction Tracker](human-object-interaction-tracker.py)**
+- Detects and counts hand raises in real-time video using computer vision techniques.
+- Useful for meeting or classroom scenarios.
 
-- A project that identifies and tracks interactions between humans and objects in live video feeds and send the output to firebase.
+### [Landmark Recognition](./landmark-recognition)
 
-4. #### **[OCR Processor](ocr-processor.py)**
+- Identifies landmarks from images using machine learning.
+- Done for educational purposes.
 
-- A system to extract and process text from images and documents using Optical Character Recognition (OCR).
+### [OCR Processor](./ocr-processor)
 
-5. #### **[Transcripter](transcripter.py)**
+- Extracts text from live video and images, enhances it using Gemini AI, and stores it in Firebase.
+- Supports both PyTesseract and Keras OCR.
 
-- A system to transcribe audio recordings into text using speech recognition technology.
+### [Transcripter](./transcripter)
 
-## **Getting Started**
+- Real-time speech-to-text converter using `SpeechRecognition` and Google Web Speech API.
+- Captures audio via mic and prints transcribed output.
 
-Clone this repository:
+## Getting Started
+
+To clone the full project portfolio:
 
 ```bash
 git clone https://github.com/thisissudeep/mini-projects-portfolio.git
 ```
 
-## **Contribution Guidelines**
+Navigate to the folder of your desired project and follow its `README.md` for individual setup instructions.
 
-While this repository primarily showcases personal work, contributions are welcome! If you'd like to suggest improvements or add related projects, feel free to open a pull request or raise an issue.
+## Connect
 
-## **Future Goals**
+- **Sabareesh Balamurugan** – [LinkedIn](https://www.linkedin.com/in/sabareesh-balamurugan-72493b224/)
+- **Sudeep B** – [LinkedIn](https://www.linkedin.com/in/thisissudeep)
 
-- Add advanced projects as I grow in my technical skills.
-- Expand categories to include more domains and technologies.
-- Collaborate with peers to create more comprehensive applications.
-
-## **Contact**
-
-Feel free to reach out to me for suggestions, collaborations, or feedback:
-
-- **LinkedIn**:
-- Sabareesh : https://www.linkedin.com/in/sabareesh-balamurugan-72493b224/
-- Sudeep : https://www.linkedin.com/in/thisissudeep/
-
-Thank you for visiting my portfolio! 😊
+---

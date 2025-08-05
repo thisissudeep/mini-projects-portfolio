@@ -8,7 +8,6 @@ This project allows you to **automate sending personalized emails** to multiple 
 - Support for multiple CC recipients
 - Secure Gmail login using App Password
 
----
 
 ## Project Structure
 
@@ -21,20 +20,18 @@ email-automation/
 └── README.md            # This file
 ```
 
----
 
-## 🪠 Steps to Setup and Run
+## Steps to Setup and Run
 
 ### 1. Download the Code
 
 - Clone the repository or download the ZIP file from GitHub and extract it.
 
 ```bash
-git clone https://github.com/your-username/email-automation.git
+git clone https://github.com/thisissudeep/email-automation.git
 cd email-automation
 ```
 
----
 
 ### 2. Create and Activate a Virtual Environment
 
@@ -46,7 +43,6 @@ env\Scripts\activate
 source env/bin/activate
 ```
 
----
 
 ### 3. Install Dependencies
 
@@ -60,7 +56,6 @@ If `requirements.txt` is missing, use:
 pip install secure-smtplib
 ```
 
----
 
 ### 4. Enable Gmail App Password
 
@@ -78,7 +73,6 @@ pip install secure-smtplib
 
 5. Click **Generate** and copy the 16-character password (e.g., `abcd efgh ijkl mnop`)
 
----
 
 ### 5. Edit Script Variables
 
@@ -90,7 +84,6 @@ app_password = "your_generated_app_password"
 subject = "Your Subject Here"
 ```
 
----
 
 ### 6. Create or Modify `email_body.txt`
 
@@ -104,7 +97,6 @@ Best regards,
 Your Name
 ```
 
----
 
 ### 7. Create or Modify `contacts.csv`
 
@@ -116,7 +108,7 @@ Sudeep,B,sudeep@gmail.com,"cc1@example.com,cc2@example.com"
 Amithesh,Sharavanan,amithesh@gmail.com,""
 ```
 
----
+
 
 ### 8. Run the Script
 
@@ -131,7 +123,6 @@ Sent to Sudeep <sudeep@gmail.com>
 Sent to Amithesh <amithesh@gmail.com>
 ```
 
----
 
 ## Script Overview
 
@@ -142,7 +133,6 @@ The script:
 - Replaces `{{name}}` with first name
 - Sends emails via Gmail SMTP with CC support
 
----
 
 ## Important Notes
 
@@ -150,3 +140,5 @@ The script:
 - Use App Password, not your main Gmail password
 - Start testing with only your own email addresses
 - Don't push `.env`, password, or secret files to GitHub
+
+---
